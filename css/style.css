@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  /* DEBUG:  */
+  /* border:1px solid black; */
+  padding:5px;
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+  font-family: arial, monospace;
+}
+
+.big-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.big-box > *{
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+
+#posizione{
+  height: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  color: grey;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
